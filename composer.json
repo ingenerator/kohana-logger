@@ -18,8 +18,8 @@
     "psr/log":       "~1.0"
   },
   "require-dev": {
-    "ingenerator/koharness" : "*@dev",
-    "phpspec/phpspec":        "~2.0@dev"
+    "kohana/koharness": "*@dev",
+    "phpspec/phpspec":  "~2.0@dev"
   },
   "suggest": {
   },
