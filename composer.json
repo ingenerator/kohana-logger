@@ -1,0 +1,46 @@
+{
+  "name":        "ingenerator/kohana-logger",
+  "description": "Provides PSR-compatible logging and logging enhancements for Kohana",
+  "keywords":    ["kohana"],
+  "homepage":    "https://github.com/ingenerator/kohana-logger",
+  "type":        "library",
+  "license":     "BSD",
+  "authors":     [
+    {
+      "name":     "Andrew Coulton",
+      "email":    "andrew@ingenerator.com",
+      "homepage": "http://www.ingenerator.com"
+    }
+  ],
+  "require": {
+    "php":           ">=5.3.3",
+    "kohana/core":   "3.3.*",
+    "psr/log":       "~1.0",
+  },
+  "require-dev": {
+    "ingenerator/koharness" : "*@dev",
+    "phpspec/phpspec":        "~2.0@dev",
+  },
+  "suggest": {
+  },
+  "support": {
+    "issues": "https://github.com/ingenerator/kohana-logger/issues",
+    "source": "https://github.com/ingenerator/kohana-logger"
+  },
+  "autoload": {
+    "psr-0": {
+      "Ingenerator\\KohanaLogger\\": "src/",
+      "spec":                         ""
+    }
+  },
+  "bin": [],
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1.x-dev"
+    }
+  },
+  "config": {
+    "bin-dir":           "bin",
+    "preferred-install": "dist"
+  }
+}
