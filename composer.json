@@ -15,11 +15,11 @@
   "require": {
     "php":           ">=5.3.3",
     "kohana/core":   "3.3.*",
-    "psr/log":       "~1.0",
+    "psr/log":       "~1.0"
   },
   "require-dev": {
     "ingenerator/koharness" : "*@dev",
-    "phpspec/phpspec":        "~2.0@dev",
+    "phpspec/phpspec":        "~2.0@dev"
   },
   "suggest": {
   },
